@@ -53,7 +53,7 @@ def filter_documents_all_tokens(
     filtered_tokens = [t for t in tokens if t not in stopwords]
 
     if not filtered_tokens:
-        return Set()
+        return set()
     
     document_sets = []
 
