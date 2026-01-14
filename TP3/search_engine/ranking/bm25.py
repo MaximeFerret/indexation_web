@@ -18,17 +18,17 @@ def compute_bm25_score(
     doc_url: str
         The document URL
     query_tokens: List[str]
-        List of the query tokens
+        Tokenized query terms
     index: Dict[str, Dict[str, List[int]]]
-        ...
+        Inverted index mapping each token to a dictionary ["url": List[token positions]]
     avg_doc_length: float
         Average document length
     doc_lengths:
         Dict of the document lengths
     k1: float
-        ... (by default 1.5)
+        BM25 term frequency saturation parameter (by default 1.5)
     b: float
-        ... (by default 1.5)
+        BM25 length normalization parameter (by default 0.75)
     """
     score = 0.0
     N = len(doc_lengths)
