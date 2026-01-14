@@ -34,7 +34,7 @@ def filter_documents_all_tokens(
         stopwords: Set[str]
 ) -> Set[str]:
     """
-    Filters documents that contain all query tokens except stopwortds.
+    Filters documents that contain all query tokens except stopwords.
     
     Parameters
     ----------
