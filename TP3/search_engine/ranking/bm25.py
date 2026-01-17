@@ -34,7 +34,7 @@ def compute_bm25_score(
     N = len(doc_lengths)
 
     for token in query_tokens:
-        if token in index:
+        if token not in index:
             continue
 
         docs_with_token = index[token]
