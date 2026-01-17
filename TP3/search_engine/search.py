@@ -67,10 +67,13 @@ def search(query: str, input_dir: str = "input") -> Dict:
     # RANKING
     results = []
     doc_lengths = {
-        url: sum(len(pos) for pos in title_index.get(token, {}).get(url, []))
+        url: sum(
+            len(title_index.get(token, {}).get(url, []))
+            for token in title_index
+        )
         for url in candidate_docs
-        for token in title_index
     }
+
 
     avg_doc_length = (
         sum(doc_lengths.values()) / len(doc_lengths)
