@@ -13,7 +13,7 @@ from search_engine.filtering import (
 from search_engine.ranking.bm25 import compute_bm25_score
 from search_engine.ranking.exact_match import compute_exact_match_score
 from search_engine.ranking.linear_scorer import compute_linear_score
-
+from search_engine.spell_correction import correct_tokens
 
 def search(query: str, input_dir: str = "input") -> Dict:
     """
@@ -42,6 +42,8 @@ def search(query: str, input_dir: str = "input") -> Dict:
     origin_index = load_index(f"{input_dir}/origin_index.json")
     reviews_index = load_index(f"{input_dir}/reviews_index.json")
 
+    vocabulary = set(title_index.keys()) | set(description_index.keys())
+
     synonyms = load_json(f"{input_dir}/origin_synonyms.json")
     products = load_jsonl(f"{input_dir}/rearranged_products.jsonl")
 
@@ -55,7 +57,21 @@ def search(query: str, input_dir: str = "input") -> Dict:
 
     # QUERY PROCESSING
     tokens = parse_query(query, stop_words)
+    tokens = correct_tokens(tokens, vocabulary)
     expanded_tokens = expand_query_with_synonyms(tokens, synonyms)
+
+    # Keep only the k=5 rarest words (manage long queries)
+    expanded_tokens = sorted(
+        expanded_tokens,
+        key=lambda t: len(title_index.get(t, []))
+    )[:5]
+
+    # Ignore unknown words
+    expanded_tokens = [
+        t for t in expanded_tokens
+        if t in title_index or t in description_index
+    ]
+
 
     # FILTERING
     candidate_docs = filter_documents_any_token(expanded_tokens, indexes)
