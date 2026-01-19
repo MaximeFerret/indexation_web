@@ -1,0 +1,332 @@
+{
+  "query": "blue jacket",
+  "total_documents": 156,
+  "filtered_documents": 25,
+  "results": [
+    {
+      "title": "Blue Energy Potion",
+      "url": "https://web-scraping.dev/product/17",
+      "description": "Drink up and game on!. Ignite your gaming sessions with our 'blue energy potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized",
+      "score": 4.8641,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Blue Energy Potion",
+      "url": "https://web-scraping.dev/product/5",
+      "description": "It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Drink up and game on!. Ignite your gaming sessions with our 'blue energy potion', a premium energy drink crafted for dedicated gamers",
+      "score": 4.8641,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Blue Energy Potion - One",
+      "url": "https://web-scraping.dev/product/17?variant=one",
+      "description": "It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Ignite your gaming sessions with our 'blue energy potion', a premium energy drink crafted for dedicated gamers. Drink up and game on!",
+      "score": 4.6369,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Blue Energy Potion - One",
+      "url": "https://web-scraping.dev/product/5?variant=one",
+      "description": "It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized. Ignite your gaming sessions with our 'blue energy potion', a premium energy drink crafted for dedicated gamers",
+      "score": 4.6369,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Blue Energy Potion - Six pack",
+      "url": "https://web-scraping.dev/product/17?variant=six-pack",
+      "description": "Drink up and game on!. Ignite your gaming sessions with our 'blue energy potion', a premium energy drink crafted for dedicated gamers. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized",
+      "score": 4.4547,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Blue Energy Potion - Six pack",
+      "url": "https://web-scraping.dev/product/5?variant=six-pack",
+      "description": "Drink up and game on!. It's more than just an energy drink - it's an ode to the gaming culture, packaged in an aesthetically pleasing potion-like bottle that'll make you feel like you're in your favorite game world. Inspired by the classic video game potions, this energy drink provides a much-needed boost to keep you focused and energized",
+      "score": 4.1427,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.6,
+          "last_rating": 5
+        }
+      }
+    },
+    {
+      "title": "Kids' Light-Up Sneakers - Blue 5",
+      "url": "https://web-scraping.dev/product/10?variant=blue-5",
+      "description": "Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. The shoes feature colorful led lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Make your child's every step magical with these fun and vibrant light-up sneakers",
+      "score": 3.9427,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Kids' Light-Up Sneakers - Blue 6",
+      "url": "https://web-scraping.dev/product/10?variant=blue-6",
+      "description": "Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play. The shoes feature colorful led lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Let your little one's personality shine with these exciting and playful shoes",
+      "score": 3.9427,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Kids' Light-Up Sneakers - Blue 5",
+      "url": "https://web-scraping.dev/product/22?variant=blue-5",
+      "description": "Make your child's every step magical with these fun and vibrant light-up sneakers. The shoes feature colorful led lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Made with breathable materials and a cushioned footbed, these sneakers ensure comfort for active play",
+      "score": 3.9427,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Kids' Light-Up Sneakers - Blue 6",
+      "url": "https://web-scraping.dev/product/22?variant=blue-6",
+      "description": "The shoes feature colorful led lights embedded in the sole that illuminate with each stride, creating an enchanting visual display. Make your child's every step magical with these fun and vibrant light-up sneakers. Let your little one's personality shine with these exciting and playful shoes",
+      "score": 3.9427,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Women's High Heel Sandals - Blue 9",
+      "url": "https://web-scraping.dev/product/20?variant=blue-9",
+      "description": "Step out in style with our women's high heel sandals. Choose from black, red, nude, or silver to complement your wardrobe. These sandals feature a strappy design that adds a touch of elegance to any outfit",
+      "score": 3.8216,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Women's High Heel Sandals - Blue 9",
+      "url": "https://web-scraping.dev/product/8?variant=blue-9",
+      "description": "These sandals feature a strappy design that adds a touch of elegance to any outfit. Choose from black, red, nude, or silver to complement your wardrobe. The comfortable footbed and sturdy heel make them perfect for a night out, while the buckle closure ensures a secure fit",
+      "score": 3.8216,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie",
+      "url": "https://web-scraping.dev/product/12",
+      "description": "Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike",
+      "score": 3.0441,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie",
+      "url": "https://web-scraping.dev/product/24",
+      "description": "Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks. Add a touch of whimsy to your winter wardrobe with our cat ear beanie",
+      "score": 3.0441,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Darkgrey small",
+      "url": "https://web-scraping.dev/product/12?variant=darkgrey-small",
+      "description": "Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Stay warm, look cute, and let your playful side shine with our cat ear beanie",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Grey medium",
+      "url": "https://web-scraping.dev/product/12?variant=grey-medium",
+      "description": "Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Grey small",
+      "url": "https://web-scraping.dev/product/12?variant=grey-small",
+      "description": "Stay warm, look cute, and let your playful side shine with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Pink small",
+      "url": "https://web-scraping.dev/product/12?variant=pink-small",
+      "description": "Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Sand small",
+      "url": "https://web-scraping.dev/product/12?variant=sand-small",
+      "description": "Stay warm, look cute, and let your playful side shine with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Add a touch of whimsy to your winter wardrobe with our cat ear beanie",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Darkgrey medium",
+      "url": "https://web-scraping.dev/product/24?variant=darkgrey-medium",
+      "description": "Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Grey medium",
+      "url": "https://web-scraping.dev/product/24?variant=grey-medium",
+      "description": "Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Grey small",
+      "url": "https://web-scraping.dev/product/24?variant=grey-small",
+      "description": "Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Stay warm, look cute, and let your playful side shine with our cat ear beanie",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Pink small",
+      "url": "https://web-scraping.dev/product/24?variant=pink-small",
+      "description": "Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Stay warm, look cute, and let your playful side shine with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Sand medium",
+      "url": "https://web-scraping.dev/product/24?variant=sand-medium",
+      "description": "Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks. Add a touch of whimsy to your winter wardrobe with our cat ear beanie. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    },
+    {
+      "title": "Cat-Ear Beanie - Sand small",
+      "url": "https://web-scraping.dev/product/24?variant=sand-small",
+      "description": "Stay warm, look cute, and let your playful side shine with our cat ear beanie. Available in a variety of colors like black, grey, white, pink, and blue, this beanie not only keeps you warm but also adds a playful element to your outfit. Crafted from warm, soft material, this cozy beanie features adorable cat ears that stand out, making it the perfect accessory for cat lovers and fashion enthusiasts alike. Wear it for a casual day out, or make it your go-to accessory for those chilly evening walks",
+      "score": 2.9463,
+      "metadata": {
+        "reviews": {
+          "total_reviews": 5,
+          "mean_mark": 4.2,
+          "last_rating": 4
+        }
+      }
+    }
+  ]
+}
