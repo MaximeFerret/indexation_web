@@ -18,7 +18,7 @@ def load_jsonl(file_path: str) -> List[Dict]:
     documents = []
 
     with open(file_path, "r", encoding="utf-8") as file:
-        for line_number, lin in enumerate(file, start=1):
+        for line_number, line in enumerate(file, start=1):
             line=line.strip()
             if not line:
                 continue
