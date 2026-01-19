@@ -1,0 +1,30 @@
+[
+  {
+    "query": "chocolate",
+    "description": "Single common keyword"
+  },
+  {
+    "query": "chocolate brazil",
+    "description": "Keyword + origin"
+  },
+  {
+    "query": "made in usa",
+    "description": "Origin with synonym"
+  },
+  {
+    "query": "classic leather sneakers",
+    "description": "Multi-word product query"
+  },
+  {
+    "query": "italian shoes",
+    "description": "Rare word + category"
+  },
+  {
+    "query": "chocolat",
+    "description": "Misspelled word"
+  },
+  {
+    "query": "organic olive oil from italy",
+    "description": "Long query"
+  }
+]
