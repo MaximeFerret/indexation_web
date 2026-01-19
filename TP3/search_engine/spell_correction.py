@@ -17,7 +17,7 @@ def correct_tokens(
     vocabulary: Set[str]
         Set of referenced words
     cutoff: float
-        ... (by default 0.8)
+        Similarity threshold (by default 0.8)
     
     Return
     ------
