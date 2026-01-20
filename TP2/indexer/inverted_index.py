@@ -79,7 +79,6 @@ def create_position_index(
         position = 0
         for token in tokens:
             if token in stopwords:
-                position += 1
                 continue
 
             if token not in index:
