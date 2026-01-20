@@ -4,10 +4,15 @@ from indexer.feature_index import create_feature_index
 from indexer.review_index import create_review_index
 from indexer.persistence import save_index
 
-
 STOPWORDS = {
     "the", "and", "or", "a", "an", "of", "to", "in", "with", "is",
-    "for", "on", "this", "that", "it", "as", "are", "be"
+    "for", "this", "that", "it", "as", "are", "be", "by", "at",
+    "your", "you", "youre", "from", "not", "all", "have", "has",
+    "but", "if", "they", "their", "we", "our", "us", "can", "will",
+    "just", "so", "what", "about", "when", "which", "who", "whom",
+    "there", "here", "no", "yes", "do", "does", "did", "any",
+    "both", "during", "each", "its", "only", "than", "thatll", "them",
+    "these", "those", "very", "while"
 }
 
 
