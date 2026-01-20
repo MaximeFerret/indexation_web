@@ -18,9 +18,26 @@ def normalize_text(text: str) -> str:
     text = text.lower()
 
     for puntuation in string.punctuation:
-        text = text.replace(puntuation, " ")
+        text = text.replace(puntuation, "")
     
     return text
+
+
+def normalize_stopwords(stopwords: Set[str]) -> Set[str]:
+    """
+    Normalize stopwords to match text normalization.
+
+    Parameters
+    ----------
+    stopwords: Set[str]
+        The set of stopwords to normalize.
+    
+    Return
+    ------
+    Set[str]
+        The normalized set of stopwords.
+    """
+    return {normalize_text(sw).strip() for sw in stopwords}
 
 
 def tokenize(text: str, stopwords: Set[str]) -> List[str]:
@@ -34,6 +51,9 @@ def tokenize(text: str, stopwords: Set[str]) -> List[str]:
     stopwords: Set[str]
         The set of useless words we want to remove
     """
+    normalized_stopwords = normalize_stopwords(stopwords)
+
     normalized_text = normalize_text(text)
     tokens = normalized_text.split()
-    return [token for token in tokens if token not in stopwords]
+
+    return [token for token in tokens if token not in normalized_stopwords]

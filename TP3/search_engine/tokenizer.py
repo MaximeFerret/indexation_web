@@ -18,7 +18,7 @@ def normalize_text(text: str) -> str:
     text = text.lower()
 
     for puntuation in string.punctuation:
-        text = text.replace(puntuation, " ")
+        text = text.replace(puntuation, "")
     
     return text
 
