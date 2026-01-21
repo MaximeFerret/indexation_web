@@ -1,9 +1,21 @@
 # Web Crawler TP1
 
-12 janvier 16h53  
-J'en suis tout juste au 3. Logique de crawling  
+## How to use:  
 
-Example:  
-`pip install -r requirements.txt`  
 
-`python main.py https://web-scraping.dev/products 50`
+```bash
+pip install -r requirements.txt
+```  
+
+```bash
+python main.py
+```
+
+---
+
+## Comments
+
+The crawler was tested on a limited set of ten pages.
+The extracted URLs are sorted before comparison to avoid differences caused by link order.
+Some differences remain between the expected results and the obtained results, especially for product titles and extracted links.
+These differences are most likely due to updates or structural changes on the target website.
