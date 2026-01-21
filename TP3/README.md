@@ -59,3 +59,15 @@ A test script automatically generates a `test_results.json` file, keeping a clea
 
 ### Weights of linear score
 The weightings were chosen arbitrarily but consistently in order to illustrate the relative impact of the different signals. Automatic optimisation of these weights would be a natural way to improve the system.
+
+The actual weights:
+```bash
+weights = {
+            "bm25_title": 2.0,
+            "bm25_description": 1.0,
+            "exact_match": 3.0,
+            "mean_mark": 0.5,
+            "total_reviews": 0.1
+        }
+```
+The BM25 and exact match scores are given higher weights.
